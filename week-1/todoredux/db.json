@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "todo": "learn redux",
+      "status": false,
+      "id": 1
+    },
+    {
+      "todo": "Bio",
+      "status": false,
+      "id": 5
+    },
+    {
+      "todo": "ReactRedux",
+      "status": false,
+      "id": 6
+    }
+  ]
+}
