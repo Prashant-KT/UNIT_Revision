@@ -28,7 +28,8 @@ export const AddTodo = () => {
       })
       .then(() => {
         setTimeout(() => {
-          getTodoSuccess(dispatch);
+          // getTodoSuccess(dispatch);
+          dispatch(getTodoSuccess());
         }, 500);
       });
   };

@@ -8,12 +8,11 @@ import { EachTodo } from './EachTodo';
 export const MainTodo = () => {
 
   const { todos, isLoading } = useSelector((state) => state.allTodo);
-
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(getTodoRequest())
-    getTodoSuccess(dispatch);
+    dispatch(getTodoSuccess())
   }, [dispatch]);
   
   return (

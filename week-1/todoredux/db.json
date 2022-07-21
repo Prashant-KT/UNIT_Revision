@@ -1,19 +1,29 @@
 {
   "todos": [
     {
-      "todo": "learn redux",
+      "todo": "React",
       "status": false,
-      "id": 1
+      "id": 8
     },
     {
-      "todo": "Bio",
+      "todo": "Redux",
       "status": false,
-      "id": 5
+      "id": 10
     },
     {
       "todo": "ReactRedux",
       "status": false,
-      "id": 6
+      "id": 11
+    },
+    {
+      "todo": "Chemistry",
+      "status": false,
+      "id": 12
+    },
+    {
+      "todo": "React",
+      "status": false,
+      "id": 15
     }
   ]
 }

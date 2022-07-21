@@ -12,14 +12,18 @@
             type:ADD_TODO_REQUEST
         }
     }
+ 
+    export const getTodo = (data) => {
+      return {
+        type: ADD_TODO_SUCCESS,
+        payload: data,
+      };
+    };
 
-    export const getTodoSuccess = async(dispatch) =>{
+    export const getTodoSuccess = () =>  async(dispatch) =>{
          let r = await axios.get("http://localhost:8080/todos");
          let data = await r.data
-        dispatch({
-          type: ADD_TODO_SUCCESS,
-          payload: data,
-        });
+        dispatch(getTodo(data));
     }
 
      export const getTodoFailure = () => {
